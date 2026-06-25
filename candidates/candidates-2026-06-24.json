@@ -1,0 +1,111 @@
+{
+  "ok": true,
+  "status": "success",
+  "target_date": "2026-06-24",
+  "checkedAt": "2026-06-25T08:21:28.919Z",
+  "checkedAtTurkey": "2026-06-25T11:21:28+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-06-24T00:00:00+03:00",
+    "until_time": "2026-06-25T00:00:00+03:00",
+    "since_unix": 1782248400,
+    "until_unix": 1782334800
+  },
+  "filters": {
+    "minReplyCount": 100,
+    "queryType": "Top",
+    "maxOutput": 8
+  },
+  "queryCount": 24,
+  "candidateCount": 8,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "candidates": [
+    {
+      "category": "Entertainment",
+      "text": "What do single ppl do at night?",
+      "url": "https://x.com/yimikaaaa/status/2069573517331362136",
+      "createdAt": "Wed Jun 24 00:09:12 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 2875,
+      "likeCount": 9676,
+      "username": "yimikaaaa"
+    },
+    {
+      "category": "Decision",
+      "text": "Imagine saving money for 5 years to finally see Rome, and when you get to the Trevi Fountain, you have to watch this.... Europe has no idea what they have done to themselves: https://t.co/rCeiv6w9Fw",
+      "url": "https://x.com/TaylorRMarshall/status/2069857717938802769",
+      "createdAt": "Wed Jun 24 18:58:30 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 1554,
+      "likeCount": 41196,
+      "username": "TaylorRMarshall"
+    },
+    {
+      "category": "Entertainment",
+      "text": "What is the best movie you've watched this year?",
+      "url": "https://x.com/ZubyMusic/status/2069811029819936919",
+      "createdAt": "Wed Jun 24 15:52:59 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 918,
+      "likeCount": 358,
+      "username": "ZubyMusic"
+    },
+    {
+      "category": "Games",
+      "text": "my friend watched her first football game last night https://t.co/OGiNj1l657",
+      "url": "https://x.com/badderfish/status/2069729740642996695",
+      "createdAt": "Wed Jun 24 10:29:58 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 725,
+      "likeCount": 132289,
+      "username": "badderfish"
+    },
+    {
+      "category": "Games",
+      "text": "Who wants one of these retro Steam Games? 🪄 Like + Reply the game you want 🎮 https://t.co/4qkVY1tL7L",
+      "url": "https://x.com/amagicmantv/status/2069849965317488655",
+      "createdAt": "Wed Jun 24 18:27:42 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 587,
+      "likeCount": 659,
+      "username": "amagicmantv"
+    },
+    {
+      "category": "Decision",
+      "text": "If my bitch wife ever does this performative shit I’m immediately driving the car off the cliff",
+      "url": "https://x.com/pelagiusreborn/status/2069756175936008606",
+      "createdAt": "Wed Jun 24 12:15:01 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 465,
+      "likeCount": 75164,
+      "username": "pelagiusreborn"
+    },
+    {
+      "category": "Games",
+      "text": "What game should I play? Solo. For the Daithi channel!",
+      "url": "https://x.com/DaithiDeNogla/status/2069711758948737166",
+      "createdAt": "Wed Jun 24 09:18:31 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 355,
+      "likeCount": 1448,
+      "username": "DaithiDeNogla"
+    },
+    {
+      "category": "Entertainment",
+      "text": "A sequel to the ‘WHAT WE DO IN THE SHADOWS’ movie is in the early works. (Source: https://t.co/sCWjnpxhRf) https://t.co/qW0TkaowfX",
+      "url": "https://x.com/DiscussingFilm/status/2069535562524946798",
+      "createdAt": "Tue Jun 23 21:38:22 +0000 2026",
+      "target_date": "2026-06-24",
+      "replyCount": 298,
+      "likeCount": 27057,
+      "username": "DiscussingFilm"
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "6a2461e6-fcb6-4c26-bffd-523802d2fa4c",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
