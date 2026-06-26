@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "status": "success",
+  "target_date": "2026-06-25",
+  "checkedAt": "2026-06-26T05:48:16.038Z",
+  "checkedAtTurkey": "2026-06-26T08:48:16+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-06-25T00:00:00+03:00",
+    "until_time": "2026-06-26T00:00:00+03:00",
+    "since_unix": 1782334800,
+    "until_unix": 1782421200
+  },
+  "filters": {
+    "minReplyCount": 100,
+    "queryType": "Top",
+    "maxOutput": 8
+  },
+  "queryCount": 24,
+  "candidateCount": 7,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "candidates": [
+    {
+      "category": "Entertainment",
+      "text": "Which 80s movie masterpiece is your flavour... https://t.co/MbunV6QjpY",
+      "url": "https://x.com/RetroMoviesDB/status/2070128639388123261",
+      "createdAt": "Thu Jun 25 12:55:03 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 358,
+      "likeCount": 656,
+      "username": "RetroMoviesDB"
+    },
+    {
+      "category": "Food",
+      "text": "We Desperately Need a National Discussion on black Behavior and if they Should Continue to be Allowed in Our Civilized Society… https://t.co/8gy3mST7a1",
+      "url": "https://x.com/Emilio2763/status/2070208253410074686",
+      "createdAt": "Thu Jun 25 18:11:24 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 183,
+      "likeCount": 705,
+      "username": "Emilio2763"
+    },
+    {
+      "category": "Decision",
+      "text": "You can only pick one. https://t.co/oDDRy0YP3S",
+      "url": "https://x.com/kunoo/status/2069895842559848746",
+      "createdAt": "Wed Jun 24 21:30:00 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 157,
+      "likeCount": 366,
+      "username": "kunoo"
+    },
+    {
+      "category": "Food",
+      "text": "We have a film gc where we watch a movie every week. We're looking to add a few more people, so if anyone is interested, please let me know!",
+      "url": "https://x.com/cfcmadlad/status/2070249015850201580",
+      "createdAt": "Thu Jun 25 20:53:23 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 150,
+      "likeCount": 684,
+      "username": "cfcmadlad"
+    },
+    {
+      "category": "Games",
+      "text": "Tomorrow is World Cup schedule is locked in: ➤ Curaçao vs Ivory Coast ➤ Ecuador vs Germany ➤ Japan vs Sweden ➤ Tunisia vs Netherlands ➤ Paraguay vs Australia ➤ Turkey vs Usa Some teams are chasing momentum. Others are fighting to stay al...",
+      "url": "https://x.com/MdRahi444797/status/2070085542977667358",
+      "createdAt": "Thu Jun 25 10:03:48 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 125,
+      "likeCount": 130,
+      "username": "MdRahi444797"
+    },
+    {
+      "category": "Games",
+      "text": "A gift from Ancelotti to Vini 😎 After the game Vinicius said: 🗣️ “I promised Mr. Ancelotti that I would score a header, he told me it’s impossible and that he would give me a gift if I do it. Now, I am waiting for the gift.” Vini compl...",
+      "url": "https://x.com/433/status/2070153685359829287",
+      "createdAt": "Thu Jun 25 14:34:34 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 104,
+      "likeCount": 2122,
+      "username": "433"
+    },
+    {
+      "category": "Games",
+      "text": "I still think about that night more than I should. We weren’t doing anything special just lying side by side after a long day, half-tired, half-awake, pretending to sleep. At first, he had his back turned to me. Quiet. Still. Then I did...",
+      "url": "https://x.com/naflasco/status/2070029130599432665",
+      "createdAt": "Thu Jun 25 06:19:38 +0000 2026",
+      "target_date": "2026-06-25",
+      "replyCount": 100,
+      "likeCount": 654,
+      "username": "naflasco"
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "274a8e97-58e5-4aaa-b2e6-fe9dba9658e6",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
