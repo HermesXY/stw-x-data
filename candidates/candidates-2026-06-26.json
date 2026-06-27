@@ -1,0 +1,111 @@
+{
+  "ok": true,
+  "status": "success",
+  "target_date": "2026-06-26",
+  "checkedAt": "2026-06-27T05:48:08.316Z",
+  "checkedAtTurkey": "2026-06-27T08:48:08+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-06-26T00:00:00+03:00",
+    "until_time": "2026-06-27T00:00:00+03:00",
+    "since_unix": 1782421200,
+    "until_unix": 1782507600
+  },
+  "filters": {
+    "minReplyCount": 100,
+    "queryType": "Top",
+    "maxOutput": 8
+  },
+  "queryCount": 24,
+  "candidateCount": 8,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "candidates": [
+    {
+      "category": "Games",
+      "text": "Alright, let me help some of you! It's Steam Summer sale time and you know how it goes here during steam sale. Let me know the game you want and I'll see what I can do. Lower the prices, higher the chances.",
+      "url": "https://x.com/SpawnYaardReply/status/2070587443112210640",
+      "createdAt": "Fri Jun 26 19:18:10 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 1260,
+      "likeCount": 2799,
+      "username": "SpawnYaardReply"
+    },
+    {
+      "category": "Games",
+      "text": "Am I the only one that didn’t play a single second of GTA V multiplayer? GTA is my favorite video game series but it has always been about the single player experience for me.",
+      "url": "https://x.com/erickstevens82/status/2070507529558278507",
+      "createdAt": "Fri Jun 26 14:00:37 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 593,
+      "likeCount": 5759,
+      "username": "erickstevens82"
+    },
+    {
+      "category": "Decision",
+      "text": "i saw a girl on here say that she djs on her stomach instead of her back so i gave it a try and omg? A game changer",
+      "url": "https://x.com/imfynerthanfyne/status/2070551699865899439",
+      "createdAt": "Fri Jun 26 16:56:08 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 536,
+      "likeCount": 52210,
+      "username": "imfynerthanfyne"
+    },
+    {
+      "category": "Decision",
+      "text": "This not Ai #THEREALME",
+      "url": "https://x.com/1future/status/2070590366047195611",
+      "createdAt": "Fri Jun 26 19:29:47 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 355,
+      "likeCount": 23358,
+      "username": "1future"
+    },
+    {
+      "category": "Games",
+      "text": "''Bro you gotta play this Factory game, this one isn't like the others'' https://t.co/pCH6OxFcMC",
+      "url": "https://x.com/ShitpostRock/status/2070381794117959998",
+      "createdAt": "Fri Jun 26 05:41:00 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 321,
+      "likeCount": 11195,
+      "username": "ShitpostRock"
+    },
+    {
+      "category": "Decision",
+      "text": "Okay, help me settle this once and for all. 😅 Which one suits me better? A. My natural plaits 😍 B. Wig queen 💁🏽‍♀️ https://t.co/E66O1lYmND",
+      "url": "https://x.com/Dammi_Esq/status/2070508927511384431",
+      "createdAt": "Fri Jun 26 14:06:11 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 310,
+      "likeCount": 415,
+      "username": "Dammi_Esq"
+    },
+    {
+      "category": "Entertainment",
+      "text": "Be honest... what is the best movie in June? https://t.co/eKIS7ASRmj",
+      "url": "https://x.com/BlazeBinges/status/2070557743648559274",
+      "createdAt": "Fri Jun 26 17:20:09 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 276,
+      "likeCount": 539,
+      "username": "BlazeBinges"
+    },
+    {
+      "category": "Entertainment",
+      "text": "Dating for men is wild. I used to have a female friend who looked like a 300 lb carrot top. She would show me her tinder and have 999+ matches. Dates all the time. One of my gym partners who is a good looking dude AND in shape got 1 or 2...",
+      "url": "https://x.com/CAMELCASTOff/status/2070314326263546057",
+      "createdAt": "Fri Jun 26 01:12:54 +0000 2026",
+      "target_date": "2026-06-26",
+      "replyCount": 245,
+      "likeCount": 6779,
+      "username": "CAMELCASTOff"
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "558f4b4a-38f7-468b-aadf-dc3743fa0b9e",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
