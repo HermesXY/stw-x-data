@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "status": "success",
+  "target_date": "2026-06-27",
+  "checkedAt": "2026-06-28T05:48:14.838Z",
+  "checkedAtTurkey": "2026-06-28T08:48:14+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-06-27T00:00:00+03:00",
+    "until_time": "2026-06-28T00:00:00+03:00",
+    "since_unix": 1782507600,
+    "until_unix": 1782594000
+  },
+  "filters": {
+    "minReplyCount": 100,
+    "queryType": "Top",
+    "maxOutput": 8
+  },
+  "queryCount": 24,
+  "candidateCount": 3,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "candidates": [
+    {
+      "category": "Entertainment",
+      "text": "The hubs and I do movie night every Saturday. Guess what we will be watching tonight? Yup. Citizen Vigilante. Have you seen it? Did you like it? I am hearing that this movie may upset the elites in government. 👀👀👀 https://t.co/3J9Z6hfKhg",
+      "url": "https://x.com/Sassafrass_84/status/2070930036190843378",
+      "createdAt": "Sat Jun 27 17:59:31 +0000 2026",
+      "target_date": "2026-06-27",
+      "replyCount": 1172,
+      "likeCount": 5028,
+      "username": "Sassafrass_84"
+    },
+    {
+      "category": "Food",
+      "text": "Do you ever get exhausted by food? Not the food itself, just the endless cycle of deciding what to eat, shopping for it, cooking it, and having to do it all over again every single freaking day.",
+      "url": "https://x.com/OrevaZSN/status/2070824496915734857",
+      "createdAt": "Sat Jun 27 11:00:08 +0000 2026",
+      "target_date": "2026-06-27",
+      "replyCount": 1118,
+      "likeCount": 32297,
+      "username": "OrevaZSN"
+    },
+    {
+      "category": "Entertainment",
+      "text": "What was the first movie to traumatise you as a kid?",
+      "url": "https://x.com/TheCinesthetic/status/2070711216096358480",
+      "createdAt": "Sat Jun 27 03:30:00 +0000 2026",
+      "target_date": "2026-06-27",
+      "replyCount": 942,
+      "likeCount": 654,
+      "username": "TheCinesthetic"
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "e735225e-6298-4aaa-8aee-0d05f58d6346",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
