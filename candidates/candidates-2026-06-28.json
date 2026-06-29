@@ -1,0 +1,91 @@
+{
+  "ok": true,
+  "status": "success",
+  "target_date": "2026-06-28",
+  "checkedAt": "2026-06-29T05:48:09.766Z",
+  "checkedAtTurkey": "2026-06-29T08:48:09+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-06-28T00:00:00+03:00",
+    "until_time": "2026-06-29T00:00:00+03:00",
+    "since_unix": 1782594000,
+    "until_unix": 1782680400
+  },
+  "filters": {
+    "minReplyCount": 100,
+    "queryType": "Top",
+    "maxOutput": 8
+  },
+  "queryCount": 24,
+  "candidateCount": 6,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "candidates": [
+    {
+      "category": "Decision",
+      "text": "BREAKING – US becomes the first country in the world to host a team at the FIFA World Cup and bоmb that team's country on the same day https://t.co/2na1BMrRiR",
+      "url": "https://x.com/GlobalUpdates24/status/2070997613827244169",
+      "createdAt": "Sat Jun 27 22:28:03 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 1545,
+      "likeCount": 246867,
+      "username": "GlobalUpdates24"
+    },
+    {
+      "category": "Decision",
+      "text": "Nah who has the video of that woman dropping her phone 😭",
+      "url": "https://x.com/UTDTrey/status/2071325473099915428",
+      "createdAt": "Sun Jun 28 20:10:50 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 275,
+      "likeCount": 19758,
+      "username": "UTDTrey"
+    },
+    {
+      "category": "Food",
+      "text": "NYC bars have become exhausting as a man. You’ll be halfway through telling your buddy a story and suddenly three girls are standing there asking what you’re drinking and if they can join. Then they start buying rounds, grabbing your arm...",
+      "url": "https://x.com/MurrayHillGuy1/status/2070997527168471072",
+      "createdAt": "Sat Jun 27 22:27:42 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 179,
+      "likeCount": 2414,
+      "username": "MurrayHillGuy1"
+    },
+    {
+      "category": "Games",
+      "text": "We are PRIVATE citizens, the government should know very little if anything about us at all. They are PUBLIC officials, we should know damn near everything about what they are doing. The cameras are pointed the wrong way.",
+      "url": "https://x.com/MW4Liberty/status/2071288028824326578",
+      "createdAt": "Sun Jun 28 17:42:03 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 123,
+      "likeCount": 23857,
+      "username": "MW4Liberty"
+    },
+    {
+      "category": "Games",
+      "text": "how are 18 year olds considered adults i feel like u should only be considered an adult at 21",
+      "url": "https://x.com/pinkiepie71/status/2071295548523417883",
+      "createdAt": "Sun Jun 28 18:11:56 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 110,
+      "likeCount": 5562,
+      "username": "pinkiepie71"
+    },
+    {
+      "category": "Games",
+      "text": "Only one world cup game on a Sunday? What kinda nonsense is this?",
+      "url": "https://x.com/WolfRMFC/status/2071212322933096900",
+      "createdAt": "Sun Jun 28 12:41:13 +0000 2026",
+      "target_date": "2026-06-28",
+      "replyCount": 105,
+      "likeCount": 9732,
+      "username": "WolfRMFC"
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "36349c3a-ef8c-4f67-84cc-f8f06bc5d33c",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
