@@ -1,0 +1,4534 @@
+{
+  "ok": true,
+  "status": "success",
+  "collector_version": "v2-opportunity-hunter",
+  "target_date": "2026-07-11",
+  "checkedAt": "2026-07-12T05:49:00.712Z",
+  "checkedAtTurkey": "2026-07-12T08:49:00+03:00",
+  "servedFrom": "github_public_repo_date_named_fresh_refresh",
+  "source": "TwitterAPI.io via Google Apps Script scheduled refresh",
+  "window": {
+    "since_time": "2026-07-11T00:00:00+03:00",
+    "until_time": "2026-07-12T00:00:00+03:00",
+    "since_unix": 1783717200,
+    "until_unix": 1783803600
+  },
+  "filters": {
+    "minReplyCountRaw": 30,
+    "minReplyCountMaybe": 50,
+    "minReplyCountStrong": 100,
+    "queryTypes": [
+      "Top",
+      "Latest"
+    ],
+    "maxPerQueryType": 20,
+    "maxFinalCandidates": 80
+  },
+  "queryCount": 100,
+  "requestCount": 200,
+  "rawCandidateCount": 2488,
+  "keptBeforeDedupeCount": 318,
+  "dedupedCandidateCount": 199,
+  "finalCandidateCount": 80,
+  "candidateCount": 80,
+  "apiErrorCount": 0,
+  "apiErrors": [],
+  "queryStats": [
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what should I play tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 11,
+      "dropped": 4,
+      "dropReasons": {
+        "hard_risk": 2,
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "best movie to watch tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 10,
+      "dropped": 4,
+      "dropReasons": {
+        "hard_risk": 2,
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "only one can stay food lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 9,
+      "dropped": 10,
+      "dropReasons": {
+        "hard_risk": 6,
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "which one should I pick lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 9,
+      "dropped": 9,
+      "dropReasons": {
+        "hard_risk": 6,
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick your top 2 games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 9,
+      "dropped": 8,
+      "dropReasons": {
+        "hard_risk": 3,
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "which movie should I watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 9,
+      "dropped": 6,
+      "dropReasons": {
+        "hard_risk": 1,
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what should I watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 9,
+      "dropped": 5,
+      "dropReasons": {
+        "hard_risk": 2,
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "pick one for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 8,
+      "dropped": 11,
+      "dropReasons": {
+        "hard_risk": 7,
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 8,
+      "dropped": 9,
+      "dropReasons": {
+        "hard_risk": 7,
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "I need someone to decide for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 7,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 3,
+        "hard_risk": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "why is choosing so hard lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 7,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "only one can stay games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 7,
+      "dropped": 7,
+      "dropReasons": {
+        "hard_risk": 3,
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "which show should I watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 7,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 2,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick your top two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 6,
+      "dropped": 11,
+      "dropReasons": {
+        "hard_risk": 7,
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "which movie should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 6,
+      "dropped": 10,
+      "dropReasons": {
+        "hard_risk": 3,
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 6,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "only one can stay shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 6,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 7,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 6,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "help me choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 20,
+      "kept": 5,
+      "dropped": 15,
+      "dropReasons": {
+        "hard_risk": 5,
+        "low_reply_count": 10
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "free time ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 5,
+      "dropped": 14,
+      "dropReasons": {
+        "low_reply_count": 11,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 5,
+      "dropped": 13,
+      "dropReasons": {
+        "low_reply_count": 11,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "small decisions are hard lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 5,
+      "dropped": 12,
+      "dropReasons": {
+        "low_reply_count": 12
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "should I go out tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 5,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "what should I do today lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 5,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 6,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "bored what should I do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 5,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what should we watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 5,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 4,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "only one can stay lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 5,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 5,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "worst movie you ever watched lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 5,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 5,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "food is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 4,
+      "dropped": 14,
+      "dropReasons": {
+        "low_reply_count": 14
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 4,
+      "dropped": 12,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick your top 2 movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 4,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 2,
+        "engagement_bait": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 4,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 7,
+        "hard_risk": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "which game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 4,
+      "dropped": 9,
+      "dropReasons": {
+        "hard_risk": 4,
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "weekend plans what should we do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 4,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what are you playing right now lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 4,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 5,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "rank these movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 4,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 6,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "best video game of all time lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 4,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what is for dinner tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 4,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 6
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "worst game you ever played lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 4,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "movie night recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 3,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 16
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "what should we do today lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 3,
+      "dropped": 16,
+      "dropReasons": {
+        "hard_risk": 8,
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "stay in or go out lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 3,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 7,
+        "outside_target_window": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "video game recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 3,
+      "dropped": 15,
+      "dropReasons": {
+        "low_reply_count": 14,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "date night what should we do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 3,
+      "dropped": 13,
+      "dropReasons": {
+        "low_reply_count": 12,
+        "outside_target_window": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "first movie that traumatized you lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 3,
+      "dropped": 12,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "can’t decide what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 3,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "cant decide what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 3,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "deciding what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 14,
+      "kept": 3,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick your top two movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 3,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 9,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should I eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 8,
+      "kept": 3,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 2,
+      "dropped": 18,
+      "dropReasons": {
+        "low_reply_count": 18
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "too many choices lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 2,
+      "dropped": 17,
+      "dropReasons": {
+        "low_reply_count": 12,
+        "hard_risk": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "top three movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 2,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 16
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "rank these snacks lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 2,
+      "dropped": 14,
+      "dropReasons": {
+        "hard_risk": 1,
+        "low_reply_count": 13
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what are you watching on netflix lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 2,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 2,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "night routine ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 2,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 9,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "board game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 2,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "only one can stay movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 2,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should I eat for dinner lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 2,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "choose for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 2,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 3,
+        "hard_risk": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should we eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 8,
+      "kept": 2,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 2,
+        "hard_risk": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "top 3 movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 6,
+      "kept": 2,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "best movie of all time lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 5,
+      "kept": 2,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "top 3 games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 4,
+      "kept": 2,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 1,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "rank these games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 1,
+      "dropped": 18,
+      "dropReasons": {
+        "low_reply_count": 17,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "game night ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 1,
+      "dropped": 18,
+      "dropReasons": {
+        "low_reply_count": 16,
+        "hard_risk": 1,
+        "engagement_bait": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "go out or stay in lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 18,
+      "kept": 1,
+      "dropped": 17,
+      "dropReasons": {
+        "low_reply_count": 9,
+        "outside_target_window": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "best video game of all time lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 17,
+      "kept": 1,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 16
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "board games with friends lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 1,
+      "dropped": 14,
+      "dropReasons": {
+        "low_reply_count": 13,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "should I or should I not lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 1,
+      "dropped": 14,
+      "dropReasons": {
+        "outside_target_window": 5,
+        "low_reply_count": 8,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "bored what should I do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 14,
+      "kept": 1,
+      "dropped": 13,
+      "dropReasons": {
+        "low_reply_count": 13
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "decision fatigue lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 13,
+      "kept": 1,
+      "dropped": 12,
+      "dropReasons": {
+        "low_reply_count": 12
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "rank these shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 1,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "what game should we play at the party lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 1,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 7,
+        "hard_risk": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "can’t decide lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 12,
+      "kept": 1,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "movie night what should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 1,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should we eat for dinner lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 1,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what is for dinner tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 10,
+      "kept": 1,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "worth watching movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 9,
+      "kept": 1,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "where should I eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 1,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 6
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "worth playing game lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 6,
+      "kept": 1,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "comfort movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 5,
+      "kept": 1,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "where should we eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 5,
+      "kept": 1,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 3,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "rank these foods lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 3,
+      "kept": 1,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "worth watching movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "comfort movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "best movie of all time lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "only one can stay shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "best sitcom lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "comfort show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "which game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "worth playing game lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "top 3 games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should I eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should we eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "dinner ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "lunch ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "where should we eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "where should I eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "restaurant choice lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "best snack lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "help me choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "can’t decide lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "cant decide lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "stuck between lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "pick one for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "this or that lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "which one should I pick lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "pick two lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "rank these lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "only one can stay lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "decision fatigue lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "too many choices lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "what should I do today lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "what should we do today lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "free time ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 19,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "go out or stay in lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "stay in or go out lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 20,
+      "kept": 0,
+      "dropped": 20,
+      "dropReasons": {
+        "low_reply_count": 20
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "top 3 movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what are you playing right now lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "board games with friends lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "deciding what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "should I or should I not lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "choose for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 18,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "this or that lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 1,
+        "outside_target_window": 18
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "should I go out tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 19,
+      "kept": 0,
+      "dropped": 19,
+      "dropReasons": {
+        "low_reply_count": 19
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what should I watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 18,
+      "kept": 0,
+      "dropped": 18,
+      "dropReasons": {
+        "low_reply_count": 18
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "pick two shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 18,
+      "kept": 0,
+      "dropped": 18,
+      "dropReasons": {
+        "low_reply_count": 18
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "best snack lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 17,
+      "kept": 0,
+      "dropped": 17,
+      "dropReasons": {
+        "low_reply_count": 17
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "meal planning is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 16,
+      "kept": 0,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 16
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "food is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 16,
+      "kept": 0,
+      "dropped": 16,
+      "dropReasons": {
+        "low_reply_count": 16
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "I need someone to decide for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 16,
+      "kept": 0,
+      "dropped": 16,
+      "dropReasons": {
+        "hard_risk": 1,
+        "low_reply_count": 15
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "streaming recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 15,
+      "kept": 0,
+      "dropped": 15,
+      "dropReasons": {
+        "low_reply_count": 15
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 14,
+      "kept": 0,
+      "dropped": 14,
+      "dropReasons": {
+        "low_reply_count": 13,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what should we watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 13,
+      "kept": 0,
+      "dropped": 13,
+      "dropReasons": {
+        "low_reply_count": 13
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "which show should I watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 13,
+      "kept": 0,
+      "dropped": 13,
+      "dropReasons": {
+        "low_reply_count": 13
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "streaming recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 12,
+      "kept": 0,
+      "dropped": 12,
+      "dropReasons": {
+        "low_reply_count": 12
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick two movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 0,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "pick two shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 0,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 11
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "stuck between lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 0,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 9,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "pick two lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 11,
+      "kept": 0,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "small decisions are hard lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 11,
+      "kept": 0,
+      "dropped": 11,
+      "dropReasons": {
+        "low_reply_count": 10,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "only one can stay games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 10,
+      "kept": 0,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 10
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "worst game you ever played lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 10,
+      "kept": 0,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 10
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "snack ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 10,
+      "kept": 0,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 10
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "why is choosing so hard lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 10,
+      "kept": 0,
+      "dropped": 10,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "game night ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 9,
+      "kept": 0,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "restaurant choice lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 9,
+      "kept": 0,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 8,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "only one can stay food lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 9,
+      "kept": 0,
+      "dropped": 9,
+      "dropReasons": {
+        "low_reply_count": 9
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "which movie should I watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 8,
+      "kept": 0,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "top three movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 8,
+      "kept": 0,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_choice",
+      "query": "what are you watching on netflix lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 8,
+      "kept": 0,
+      "dropped": 8,
+      "dropReasons": {
+        "low_reply_count": 8
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick two movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "rank these shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "best sitcom lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "rank these games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "lunch ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "pick one pizza burger sushi tacos pasta lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "choose one pizza burger sushi tacos pasta lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 7,
+      "kept": 0,
+      "dropped": 7,
+      "dropReasons": {
+        "low_reply_count": 7
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "dinner ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 6,
+      "kept": 0,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 6
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "snack ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 6,
+      "kept": 0,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 6
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "cant decide lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 6,
+      "kept": 0,
+      "dropped": 6,
+      "dropReasons": {
+        "low_reply_count": 6
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "rank these movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 5,
+      "kept": 0,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "tv_rank",
+      "query": "comfort show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 5,
+      "kept": 0,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should I eat for dinner lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 5,
+      "kept": 0,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "can’t decide what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 5,
+      "kept": 0,
+      "dropped": 5,
+      "dropReasons": {
+        "low_reply_count": 5
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "what should I play tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 4,
+      "kept": 0,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 4,
+      "kept": 0,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "party game ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 4,
+      "kept": 0,
+      "dropped": 4,
+      "dropReasons": {
+        "low_reply_count": 4
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "movie night recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 3,
+      "kept": 0,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "which movie should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 3,
+      "kept": 0,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "only one can stay movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 3,
+      "kept": 0,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "party game ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 3,
+      "kept": 0,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 2,
+        "hard_risk": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Decision",
+      "opportunityType": "general_decision",
+      "query": "rank these lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "returned": 3,
+      "kept": 0,
+      "dropped": 3,
+      "dropReasons": {
+        "low_reply_count": 3
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick your top 2 games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 2,
+      "kept": 0,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "what should we eat for dinner lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 2,
+      "kept": 0,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "date night what should we do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 2,
+      "kept": 0,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "night routine ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 2,
+      "kept": 0,
+      "dropped": 2,
+      "dropReasons": {
+        "low_reply_count": 2
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick your top 2 movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 1,
+      "kept": 0,
+      "dropped": 1,
+      "dropReasons": {
+        "low_reply_count": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "worst movie you ever watched lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 1,
+      "kept": 0,
+      "dropped": 1,
+      "dropReasons": {
+        "low_reply_count": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "party_game",
+      "query": "what game should we play at the party lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 1,
+      "kept": 0,
+      "dropped": 1,
+      "dropReasons": {
+        "low_reply_count": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Lifestyle",
+      "opportunityType": "activity_choice",
+      "query": "weekend plans what should we do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 1,
+      "kept": 0,
+      "dropped": 1,
+      "dropReasons": {
+        "low_reply_count": 1
+      },
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "movie night what should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_choice",
+      "query": "best movie to watch tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "pick your top two movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Entertainment",
+      "opportunityType": "movie_rank",
+      "query": "first movie that traumatized you lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "board game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_choice",
+      "query": "video game recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Games",
+      "opportunityType": "game_rank",
+      "query": "pick your top two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "cant decide what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_choice",
+      "query": "meal planning is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "pick one pizza burger sushi tacos pasta lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "choose one pizza burger sushi tacos pasta lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "rank these foods lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    },
+    {
+      "category": "Food",
+      "opportunityType": "food_rank",
+      "query": "rank these snacks lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "returned": 0,
+      "kept": 0,
+      "dropped": 0,
+      "dropReasons": {},
+      "apiError": false
+    }
+  ],
+  "candidates": [
+    {
+      "category": "Entertainment",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "Super Sky Point to Randolph Mantooth, the man who brought to life Emergency’s great Johnny Gage. Always my favorite character on a show that ranks among the 70s’ most iconic primetime dramas. St. Peter, better have the Ringer’s lactate ready. He’ll know what to do with it. #RIP https://t.co/cYpTrjp0Ql",
+      "url": "https://x.com/Super70sSports/status/2075772445038919780",
+      "createdAt": "Sat Jul 11 02:41:31 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 278,
+      "likeCount": 7141,
+      "repostCount": 653,
+      "quoteCount": 54,
+      "viewCount": 136517,
+      "username": "Super70sSports",
+      "tweetId": "2075772445038919780",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 100
+    },
+    {
+      "category": "Entertainment",
+      "query": "which movie should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Which movie do you like most? 🍿 https://t.co/oZsMDS4Fcw",
+      "url": "https://x.com/HouseOfHorrorCo/status/2075715847289503787",
+      "createdAt": "Fri Jul 10 22:56:37 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 143,
+      "likeCount": 314,
+      "repostCount": 27,
+      "quoteCount": 23,
+      "viewCount": 13053,
+      "username": "HouseOfHorrorCo",
+      "tweetId": "2075715847289503787",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 100
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Tom Holland when asked which Christopher Nolan film would be Peter Parker’s favorite: “It would either be ‘Inception,’ ‘Interstellar’ or ‘The Dark Knight’… I think it would be really interesting to watch a superhero watch a superhero movie.” (Source: rachelsmithvegas/IG) https://t.co/4PkQItWJJu",
+      "url": "https://x.com/DiscussingFilm/status/2075987634229305471",
+      "createdAt": "Sat Jul 11 16:56:36 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 160,
+      "likeCount": 10149,
+      "repostCount": 453,
+      "quoteCount": 20,
+      "viewCount": 343514,
+      "username": "DiscussingFilm",
+      "tweetId": "2075987634229305471",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 98
+    },
+    {
+      "category": "Entertainment",
+      "query": "movie night recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "I have a sin to admit. I've never seen Ghostbusters, Terminator, and other must see classics. I'm making a list to fix this. Which are some of your \"you have to see this or you suck\" movie and show recommendations? https://t.co/AYxLDKZvrd",
+      "url": "https://x.com/ZoranTheWizard/status/2075973492013519183",
+      "createdAt": "Sat Jul 11 16:00:24 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 64,
+      "likeCount": 104,
+      "repostCount": 5,
+      "quoteCount": 0,
+      "viewCount": 3247,
+      "username": "ZoranTheWizard",
+      "tweetId": "2075973492013519183",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 97
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "Left or Right? Which one would you choose? https://t.co/3vz2kytMac",
+      "url": "https://x.com/CatLover56577/status/2075870159936643562",
+      "createdAt": "Sat Jul 11 09:09:48 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 111,
+      "likeCount": 209,
+      "repostCount": 8,
+      "quoteCount": 3,
+      "viewCount": 3543,
+      "username": "CatLover56577",
+      "tweetId": "2075870159936643562",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 96
+    },
+    {
+      "category": "Entertainment",
+      "query": "best movie to watch tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "I loooved #TheOdyssey so much Its grand its epic and surprisingly its scary too. A first for nolan He has made sure he grounds a story about greek gods, magic and witch with as much realism as possible and thats why he is one of the greatest filmmakers of our times. Narratively odyssey is a film about KARMA. Matt damon carries this film with i believe his career best performance and cements his status as one of the best leading actors of hollywood. I love him soo much man And someone please g...",
+      "url": "https://x.com/ashchanchlani/status/2075822508247498758",
+      "createdAt": "Sat Jul 11 06:00:27 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 64,
+      "likeCount": 2557,
+      "repostCount": 107,
+      "quoteCount": 12,
+      "viewCount": 101096,
+      "username": "ashchanchlani",
+      "tweetId": "2075822508247498758",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 96
+    },
+    {
+      "category": "Entertainment",
+      "query": "first movie that traumatized you lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "My least favorite horror movie is the fact that young boys are so easily influenced by the outside environment. A mother could spend years teaching her little kid to be a sweet boy,and just him going to school,meeting a boy who harbors toxic ideas can change him completely",
+      "url": "https://x.com/kaoru_san22/status/2075920160158859740",
+      "createdAt": "Sat Jul 11 12:28:29 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 50,
+      "likeCount": 31537,
+      "repostCount": 2945,
+      "quoteCount": 110,
+      "viewCount": 283109,
+      "username": "kaoru_san22",
+      "tweetId": "2075920160158859740",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 95
+    },
+    {
+      "category": "Games",
+      "query": "what are you playing right now lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "Oh yeah the GOAT is playing today 😎 Predict which teams are advancing today and 5 of you will get $100! https://t.co/rM0AhfQNqx",
+      "url": "https://x.com/Winna/status/2076011151851217095",
+      "createdAt": "Sat Jul 11 18:30:03 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 605,
+      "likeCount": 527,
+      "repostCount": 371,
+      "quoteCount": 2,
+      "viewCount": 9375,
+      "username": "Winna",
+      "tweetId": "2076011151851217095",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 93
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "The absolute funniest part of capitalist ideology is that they somehow managed to convince everyone that “freedom” meant like.…. the freedom to choose between 47 kinds of shampoo, and not like.….. the freedom to quit a job you hatė without losing your health insurance.",
+      "url": "https://x.com/omgsidewalks/status/2075849189364277350",
+      "createdAt": "Sat Jul 11 07:46:28 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 147,
+      "likeCount": 6518,
+      "repostCount": 1249,
+      "quoteCount": 19,
+      "viewCount": 57499,
+      "username": "omgsidewalks",
+      "tweetId": "2075849189364277350",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 93
+    },
+    {
+      "category": "Food",
+      "query": "food is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "Why is it that food tastes better when someone else is paying for it? 😂",
+      "url": "https://x.com/Israelgharee/status/2075822397543043381",
+      "createdAt": "Sat Jul 11 06:00:01 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 107,
+      "likeCount": 177,
+      "repostCount": 140,
+      "quoteCount": 2,
+      "viewCount": 3607,
+      "username": "Israelgharee",
+      "tweetId": "2075822397543043381",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 93
+    },
+    {
+      "category": "Games",
+      "query": "what should I play tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "Eager to hear your life advice. What should I be doing?",
+      "url": "https://x.com/bryan_johnson/status/2076010365641794007",
+      "createdAt": "Sat Jul 11 18:26:56 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 5260,
+      "likeCount": 3086,
+      "repostCount": 56,
+      "quoteCount": 251,
+      "viewCount": 866815,
+      "username": "bryan_johnson",
+      "tweetId": "2076010365641794007",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 92
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "I saw this movie for the first time when I was like 13 and could not figure out why my dad was acting like it had given him genuine ptsd until i watched it again years later and went 'oh yeah that makes more sense'",
+      "url": "https://x.com/entheoalchemist/status/2075687790973444156",
+      "createdAt": "Fri Jul 10 21:05:08 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 198,
+      "likeCount": 57900,
+      "repostCount": 974,
+      "quoteCount": 31,
+      "viewCount": 4519203,
+      "username": "entheoalchemist",
+      "tweetId": "2075687790973444156",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 92
+    },
+    {
+      "category": "Food",
+      "query": "what is for dinner tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "If your cat is curious abt what you're eating always let em have a lil whiff. 9/10 times they don't even wanna eat it they just wanted to know what it was. it's cute",
+      "url": "https://x.com/kiesha9i/status/2075855214976835941",
+      "createdAt": "Sat Jul 11 08:10:25 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 131,
+      "likeCount": 21637,
+      "repostCount": 1021,
+      "quoteCount": 170,
+      "viewCount": 206228,
+      "username": "kiesha9i",
+      "tweetId": "2075855214976835941",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 91
+    },
+    {
+      "category": "Games",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "I think we should make up two new PlayStation consoles so I can fill in this gap on my desktop https://t.co/auGO6FWOZp",
+      "url": "https://x.com/kitsuneredFES/status/2075710264784101759",
+      "createdAt": "Fri Jul 10 22:34:26 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 121,
+      "likeCount": 11346,
+      "repostCount": 666,
+      "quoteCount": 18,
+      "viewCount": 208147,
+      "username": "kitsuneredFES",
+      "tweetId": "2075710264784101759",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 91
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Maybe they should have cast Sydney Sweeney in the lead role. They probably would have made $500 million profit on the movie. https://t.co/p7bSqYWuH8",
+      "url": "https://x.com/WallStreetMav/status/2075736543889682562",
+      "createdAt": "Sat Jul 11 00:18:52 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 390,
+      "likeCount": 6484,
+      "repostCount": 431,
+      "quoteCount": 38,
+      "viewCount": 156925,
+      "username": "WallStreetMav",
+      "tweetId": "2075736543889682562",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 90
+    },
+    {
+      "category": "Food",
+      "query": "where should we eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "[Pied Piper] 🐥 I wonder why they love this song so much 🐿 You know I really think that we should include this in the setlist the next time (tour) 🐥 Exactly! Next time we have a concert, we have to definitely include this song",
+      "url": "https://x.com/eternalhyyh/status/2076032489915863222",
+      "createdAt": "Sat Jul 11 19:54:51 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 115,
+      "likeCount": 24203,
+      "repostCount": 3942,
+      "quoteCount": 1269,
+      "viewCount": 275261,
+      "username": "eternalhyyh",
+      "tweetId": "2076032489915863222",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 90
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "As a developer, which one would you actually choose for Android development? https://t.co/D8YuavPMtO",
+      "url": "https://x.com/codewith55/status/2075812115559100470",
+      "createdAt": "Sat Jul 11 05:19:09 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 71,
+      "likeCount": 58,
+      "repostCount": 1,
+      "quoteCount": 0,
+      "viewCount": 1984,
+      "username": "codewith55",
+      "tweetId": "2075812115559100470",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 90
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "opportunityType": "general_decision",
+      "text": "If you had to pick one, which facial hair number would you choose? 🤔 https://t.co/b1mdR2UbEI",
+      "url": "https://x.com/GraceGym_/status/2076029108035735744",
+      "createdAt": "Sat Jul 11 19:41:24 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 64,
+      "likeCount": 21,
+      "repostCount": 9,
+      "quoteCount": 1,
+      "viewCount": 15562,
+      "username": "GraceGym_",
+      "tweetId": "2076029108035735744",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 90
+    },
+    {
+      "category": "Decision",
+      "query": "pick one for me lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "One lucky account will receive 20 usdt after I make my pick in 24 hours. Re-post this and foIIow the sponsor @GenieOrb [BG 678]",
+      "url": "https://x.com/Bang_Garrx/status/2075752565061599241",
+      "createdAt": "Sat Jul 11 01:22:31 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 489,
+      "likeCount": 433,
+      "repostCount": 2613,
+      "quoteCount": 3,
+      "viewCount": 28588,
+      "username": "Bang_Garrx",
+      "tweetId": "2075752565061599241",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 89
+    },
+    {
+      "category": "Food",
+      "query": "can’t decide what to eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "When I was a line cook I asked a server how much they made in tips on a weekend, and let me tell you there's nothing more disheartening to find out they made what I made in a week in two days. Fuck servers they don't deserve shit, you bring the food out and my drink, you don't cook the food.",
+      "url": "https://x.com/Xach_the_Rat/status/2075772920803020933",
+      "createdAt": "Sat Jul 11 02:43:24 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 367,
+      "likeCount": 8259,
+      "repostCount": 223,
+      "quoteCount": 55,
+      "viewCount": 678884,
+      "username": "Xach_the_Rat",
+      "tweetId": "2075772920803020933",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 89
+    },
+    {
+      "category": "Games",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "Hot take: Ubisoft should stop reinventing Ghost Recon and just make the next game like Wildlands. https://t.co/SRRZ6LwVp2",
+      "url": "https://x.com/TheGameVerse/status/2075731803931906251",
+      "createdAt": "Sat Jul 11 00:00:01 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 284,
+      "likeCount": 6370,
+      "repostCount": 316,
+      "quoteCount": 62,
+      "viewCount": 499348,
+      "username": "TheGameVerse",
+      "tweetId": "2075731803931906251",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 89
+    },
+    {
+      "category": "Entertainment",
+      "query": "which movie should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Tom Holland when asked which Christopher Nolan movie would be Peter Parker’s favourite: \"It would either be ‘Inception,’ ‘Interstellar’ or ‘The Dark Knight’… I think it would be really interesting to watch a superhero watch a superhero movie.\" https://t.co/7apa8QS3eu",
+      "url": "https://x.com/FilmUpdates/status/2075952022545682807",
+      "createdAt": "Sat Jul 11 14:35:06 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 60,
+      "likeCount": 3918,
+      "repostCount": 164,
+      "quoteCount": 24,
+      "viewCount": 584151,
+      "username": "FilmUpdates",
+      "tweetId": "2075952022545682807",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 88
+    },
+    {
+      "category": "Entertainment",
+      "query": "rank these movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "Which of these iconic Alien movies is the best one in your opinion? https://t.co/YEwzVTL0TZ",
+      "url": "https://x.com/XFilesAesthetic/status/2076022029732716638",
+      "createdAt": "Sat Jul 11 19:13:17 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 52,
+      "likeCount": 88,
+      "repostCount": 2,
+      "quoteCount": 5,
+      "viewCount": 6090,
+      "username": "XFilesAesthetic",
+      "tweetId": "2076022029732716638",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 88
+    },
+    {
+      "category": "Decision",
+      "query": "which one should I pick lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "My naija traders All your naija payment methods don dey ground now. You fit dey buy your challenge and also dey cash out as e dey hot. I go pick 500 naija traders wey don get account with funding pips. Dash them 1k instant account each.",
+      "url": "https://x.com/Khldfx/status/2075911323574317228",
+      "createdAt": "Sat Jul 11 11:53:22 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 1790,
+      "likeCount": 3591,
+      "repostCount": 442,
+      "quoteCount": 58,
+      "viewCount": 83955,
+      "username": "Khldfx",
+      "tweetId": "2075911323574317228",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 87
+    },
+    {
+      "category": "Games",
+      "query": "pick two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "8 games today as NBA Summer League continues in Vegas, featuring a matchup between No. 6 pick Mikel Brown Jr. and No. 8 pick Kingston Flemings! Catch it all starting at 3:30pm/et on Prime, ESPN and NBA League Pass. https://t.co/KHtDsy5V4C",
+      "url": "https://x.com/NBA/status/2075931865027092733",
+      "createdAt": "Sat Jul 11 13:15:00 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 69,
+      "likeCount": 467,
+      "repostCount": 101,
+      "quoteCount": 9,
+      "viewCount": 118704,
+      "username": "NBA",
+      "tweetId": "2075931865027092733",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 87
+    },
+    {
+      "category": "Entertainment",
+      "query": "only one can stay movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "Avengers: The Kang Dynasty or Doomsday? You can only choose one… https://t.co/XOevyuT13H",
+      "url": "https://x.com/marvelousgeek__/status/2075999726500012234",
+      "createdAt": "Sat Jul 11 17:44:39 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 55,
+      "likeCount": 687,
+      "repostCount": 47,
+      "quoteCount": 22,
+      "viewCount": 24387,
+      "username": "marvelousgeek__",
+      "tweetId": "2075999726500012234",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 87
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "if i show uuuuu, u showw me ..?? 👀📷 answer yes or no. be honestttttt 📷 🙈 https://t.co/ZCCKmRVODk",
+      "url": "https://x.com/naomyPR/status/2075969273269256509",
+      "createdAt": "Sat Jul 11 15:43:39 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 734,
+      "likeCount": 2558,
+      "repostCount": 59,
+      "quoteCount": 2,
+      "viewCount": 79852,
+      "username": "naomyPR",
+      "tweetId": "2075969273269256509",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Will you be watching? https://t.co/POmToWxhXd",
+      "url": "https://x.com/catturd2/status/2076041214609035579",
+      "createdAt": "Sat Jul 11 20:29:31 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 633,
+      "likeCount": 4324,
+      "repostCount": 173,
+      "quoteCount": 29,
+      "viewCount": 100718,
+      "username": "catturd2",
+      "tweetId": "2076041214609035579",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "I consider myself a huge TV fan— watch between ten and fifteen hours of television every day— I’ve never heard of any of these shows.",
+      "url": "https://x.com/blumenfeld/status/2076013467224670269",
+      "createdAt": "Sat Jul 11 18:39:15 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 461,
+      "likeCount": 1542,
+      "repostCount": 26,
+      "quoteCount": 56,
+      "viewCount": 2183519,
+      "username": "blumenfeld",
+      "tweetId": "2076013467224670269",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "worst movie you ever watched lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "you’re stuck in the last TV series you watched, where are you?",
+      "url": "https://x.com/TheCinesthetic/status/2075776591888605531",
+      "createdAt": "Sat Jul 11 02:58:00 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 419,
+      "likeCount": 271,
+      "repostCount": 15,
+      "quoteCount": 175,
+      "viewCount": 91227,
+      "username": "TheCinesthetic",
+      "tweetId": "2075776591888605531",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "which movie should I watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Apple TV’s Cape Fear hasn’t given me a single reason as to why it should be made. My full review will come after I’ve seen every episode at the end of July, but so far, the show has trickled into a bit of a letdown because Max Cady isn’t allowed to take off the gloves. Javier Bardem needs to be unleashed the way Scorsese unleashed De Niro. I haven’t finished the entire series, but so far, it’s not as good as its predecessors.",
+      "url": "https://x.com/CinemaTweets1/status/2075988876276244976",
+      "createdAt": "Sat Jul 11 17:01:32 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 153,
+      "likeCount": 697,
+      "repostCount": 30,
+      "quoteCount": 17,
+      "viewCount": 215929,
+      "username": "CinemaTweets1",
+      "tweetId": "2075988876276244976",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "I’ve never seen a man film his divorce like it’s a brand launch. Never seen a man claim a “glow-up” after leaving his wife and kids. Never seen a man celebrate choosing happiness over his family. Never seen a man abandon his marriage to “find himself.” I rarely hear men talk about the stress of mental load or emotional labor, especially as fathers. Why does this pattern only show up with women?",
+      "url": "https://x.com/marriedmn/status/2075973390595207618",
+      "createdAt": "Sat Jul 11 16:00:00 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 145,
+      "likeCount": 1209,
+      "repostCount": 180,
+      "quoteCount": 12,
+      "viewCount": 48737,
+      "username": "marriedmn",
+      "tweetId": "2075973390595207618",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Young, healthy guy spends his Sunday in bed for a 12-hour movie marathon. Barely moves a muscle. Drinks only a Coke. He finally stands up to stretch, instantly collapses and dies on the spot. What went wrong?",
+      "url": "https://x.com/DocPriyamMD/status/2075903129514852731",
+      "createdAt": "Sat Jul 11 11:20:49 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 110,
+      "likeCount": 763,
+      "repostCount": 78,
+      "quoteCount": 11,
+      "viewCount": 350740,
+      "username": "DocPriyamMD",
+      "tweetId": "2075903129514852731",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "\"not watching this show anymore\" DO YOU PROMISE?",
+      "url": "https://x.com/jadorz/status/2075756989146190034",
+      "createdAt": "Sat Jul 11 01:40:06 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 95,
+      "likeCount": 32537,
+      "repostCount": 4680,
+      "quoteCount": 73,
+      "viewCount": 206637,
+      "username": "jadorz",
+      "tweetId": "2075756989146190034",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Food",
+      "query": "rank these snacks lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_rank",
+      "text": "80s Albums Showdown! Round 2! Rank these albums from 1-4 in comments! Top 2 move to Round 3 A: Disintegration (The Cure) B: Picture Book (Simply Red) C: Rio (Duran Duran) D: Viva Hate (Morrissey) https://t.co/OfoNXMlzZo",
+      "url": "https://x.com/jhoburgh/status/2075962263186362569",
+      "createdAt": "Sat Jul 11 15:15:47 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 58,
+      "likeCount": 15,
+      "repostCount": 2,
+      "quoteCount": 0,
+      "viewCount": 1563,
+      "username": "jhoburgh",
+      "tweetId": "2075962263186362569",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Lifestyle",
+      "query": "bored what should I do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "activity_choice",
+      "text": "Seriously bored, what should I do?😪 https://t.co/swx28G3J6V",
+      "url": "https://x.com/theBigMira_/status/2075700991345741932",
+      "createdAt": "Fri Jul 10 21:57:35 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 54,
+      "likeCount": 80,
+      "repostCount": 10,
+      "quoteCount": 0,
+      "viewCount": 3232,
+      "username": "theBigMira_",
+      "tweetId": "2075700991345741932",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 86
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "If you are a clearly deranged and obsessed former employer who used to be relevant, but now spends his every day speaking about my family (while buying views) and you would like to learn more about my husband on a podcast that is actually watched— might I suggest the Shawn Ryan show? Our 4:44 discussion just crossed 5.3 million views and covers husband and my children so you can get your fix until I’m back on Monday, dweeb! 😂 https://t.co/vwC2sOu3u5",
+      "url": "https://x.com/RealCandaceO/status/2075840623039451577",
+      "createdAt": "Sat Jul 11 07:12:26 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 1271,
+      "likeCount": 13780,
+      "repostCount": 1293,
+      "quoteCount": 41,
+      "viewCount": 643280,
+      "username": "RealCandaceO",
+      "tweetId": "2075840623039451577",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Games",
+      "query": "pick your top two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "THE RETURN OF THE NOTORIOUS 👊 Who will walk out of #UFC329 as champion? Tell us who's winning the main card + your username, and if you pick correctly, 10 of you at random will split $1,000. https://t.co/3e4BQ4jj9Y",
+      "url": "https://x.com/shufflecom/status/2075922013353541951",
+      "createdAt": "Sat Jul 11 12:35:51 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 1055,
+      "likeCount": 936,
+      "repostCount": 645,
+      "quoteCount": 0,
+      "viewCount": 24413,
+      "username": "shufflecom",
+      "tweetId": "2075922013353541951",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Games",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "What is the name of this game? Looks very exciting. https://t.co/tRc3pGPI7q",
+      "url": "https://x.com/unlexsi/status/2075780557175189795",
+      "createdAt": "Sat Jul 11 03:13:45 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 753,
+      "likeCount": 837,
+      "repostCount": 386,
+      "quoteCount": 2,
+      "viewCount": 496193,
+      "username": "unlexsi",
+      "tweetId": "2075780557175189795",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Games",
+      "query": "game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "GAMERS!! Name 5 games you think *everyone* should play at least once. I'll start: 1) Bioshock 2) TLOU 3) A Pokemon game 4) Baldur's Gate 3 5) A Resident Evil Game",
+      "url": "https://x.com/takeme2hobbiton/status/2075888798215409875",
+      "createdAt": "Sat Jul 11 10:23:52 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 267,
+      "likeCount": 187,
+      "repostCount": 5,
+      "quoteCount": 49,
+      "viewCount": 18669,
+      "username": "takeme2hobbiton",
+      "tweetId": "2075888798215409875",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Games",
+      "query": "worst game you ever played lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "This UI is absolutely insane 🤯 Can you name a #Roblox game with a better one? https://t.co/tjA3pSHyGf",
+      "url": "https://x.com/DMiner_rbx/status/2075958724120727713",
+      "createdAt": "Sat Jul 11 15:01:43 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 171,
+      "likeCount": 740,
+      "repostCount": 25,
+      "quoteCount": 204,
+      "viewCount": 852319,
+      "username": "DMiner_rbx",
+      "tweetId": "2075958724120727713",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Food",
+      "query": "what should I eat lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "It’s already 2 am here in Japan. I’m getting hungry… What do you think I should eat? 🤔",
+      "url": "https://x.com/learning_yohei/status/2075984780655755613",
+      "createdAt": "Sat Jul 11 16:45:16 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 105,
+      "likeCount": 155,
+      "repostCount": 0,
+      "quoteCount": 1,
+      "viewCount": 6513,
+      "username": "learning_yohei",
+      "tweetId": "2075984780655755613",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Games",
+      "query": "what should I play tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "me: so i heard you’re into gaming? what do you play? coworker: ah well i don’t play too much😅my friends and i play cod sometimes me: LOL BALL AND GUN GAMER! YOUR A BALL AND GUN GAMER😂🤣 coworker: ..? me: I for one play JRPGs. Tch, as if you would even know what that means..",
+      "url": "https://x.com/sham_exe/status/2075808898095726760",
+      "createdAt": "Sat Jul 11 05:06:22 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 62,
+      "likeCount": 17228,
+      "repostCount": 1136,
+      "quoteCount": 52,
+      "viewCount": 320484,
+      "username": "sham_exe",
+      "tweetId": "2075808898095726760",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 85
+    },
+    {
+      "category": "Lifestyle",
+      "query": "free time ideas lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "activity_choice",
+      "text": "Good morning fam ☀️ GM CT ☕ Happy weekend! Starting the weekend by checking in with @sleepagotchi. Better sleep means more energy to enjoy the days ahead. Also keeping an eye on @CNPYNetwork . Love seeing builders continue creating and shipping great ideas. Hope you find time to relax, enjoy the little moments, and recharge for the week ahead. Wishing you all good vibes and plenty of smiles! 💚",
+      "url": "https://x.com/mehradrs/status/2075799001639641393",
+      "createdAt": "Sat Jul 11 04:27:03 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 161,
+      "likeCount": 163,
+      "repostCount": 3,
+      "quoteCount": 2,
+      "viewCount": 6678,
+      "username": "mehradrs",
+      "tweetId": "2075799001639641393",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "what could possibly be the motive of buying letterboxd where people just logs the films they watch and interact with each other what role does any corp has to play here like what even",
+      "url": "https://x.com/onwyre/status/2075793888976208188",
+      "createdAt": "Sat Jul 11 04:06:44 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 72,
+      "likeCount": 6642,
+      "repostCount": 251,
+      "quoteCount": 43,
+      "viewCount": 110801,
+      "username": "onwyre",
+      "tweetId": "2075793888976208188",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Decision",
+      "query": "help me choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "Help me to Choose one left or right https://t.co/0QZ70EyUce",
+      "url": "https://x.com/coffee_0708/status/2075893757082566828",
+      "createdAt": "Sat Jul 11 10:43:34 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 36,
+      "likeCount": 64,
+      "repostCount": 1,
+      "quoteCount": 0,
+      "viewCount": 2540,
+      "username": "coffee_0708",
+      "tweetId": "2075893757082566828",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "opportunityType": "general_decision",
+      "text": "which one would you choose?? https://t.co/QQmXG8qF0S",
+      "url": "https://x.com/Jennifer55gt/status/2076041139527016725",
+      "createdAt": "Sat Jul 11 20:29:13 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 35,
+      "likeCount": 12,
+      "repostCount": 0,
+      "quoteCount": 0,
+      "viewCount": 1149,
+      "username": "Jennifer55gt",
+      "tweetId": "2076041139527016725",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "If you had to choose one of these gowns which on would you pick?💗 https://t.co/01ppihiN5y",
+      "url": "https://x.com/KhanSaba1278/status/2075963384839934062",
+      "createdAt": "Sat Jul 11 15:20:15 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 30,
+      "likeCount": 22,
+      "repostCount": 14,
+      "quoteCount": 0,
+      "viewCount": 1235,
+      "username": "KhanSaba1278",
+      "tweetId": "2075963384839934062",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Decision",
+      "query": "can’t decide lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "All right. Amazon served me up this in an ad and I can’t decide if I like it or not. What’s your gut telling you? https://t.co/NHDN5uOVcm",
+      "url": "https://x.com/brittilina/status/2075726654865817910",
+      "createdAt": "Fri Jul 10 23:39:34 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 30,
+      "likeCount": 9,
+      "repostCount": 0,
+      "quoteCount": 2,
+      "viewCount": 2722,
+      "username": "brittilina",
+      "tweetId": "2075726654865817910",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 84
+    },
+    {
+      "category": "Food",
+      "query": "food is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "Restaurants, replacing actual photos of your food with AI images is not the flex you think it is https://t.co/M3XaPYpAJv",
+      "url": "https://x.com/kitosan/status/2075969617491812833",
+      "createdAt": "Sat Jul 11 15:45:01 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 745,
+      "likeCount": 51324,
+      "repostCount": 4493,
+      "quoteCount": 730,
+      "viewCount": 1557687,
+      "username": "kitosan",
+      "tweetId": "2075969617491812833",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Food",
+      "query": "only one can stay food lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_rank",
+      "text": "Word of advice to you Harry, go back to America and never, ever set foot on English soil again. This is not your home or country anymore, you lost all rights to that when you lied about your family, the British people and the country. You, Meghan and the children will never be accepted, I’m not getting at the children, they are innocent in all this but until a DNA test is done and the results are known, then they will never be accepted as Prince and Princess. Betty will always be known by tha...",
+      "url": "https://x.com/Lizzzie225/status/2075879564291481612",
+      "createdAt": "Sat Jul 11 09:47:10 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 197,
+      "likeCount": 2497,
+      "repostCount": 254,
+      "quoteCount": 13,
+      "viewCount": 39352,
+      "username": "Lizzzie225",
+      "tweetId": "2075879564291481612",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Food",
+      "query": "food is exhausting lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_choice",
+      "text": "A used car that runs well enough that you'd put your 16yr old in will run you $6-16k. Insuring a teenager is $3-5k a year. Gas is $4/gal nationally. Fast food costs $15-20. Hanging out almost anywhere is illegal. There's not a ton of incentive unless your parents are loaded",
+      "url": "https://x.com/SlowNewsDayShow/status/2075806376321061350",
+      "createdAt": "Sat Jul 11 04:56:21 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 168,
+      "likeCount": 19294,
+      "repostCount": 1219,
+      "quoteCount": 37,
+      "viewCount": 602360,
+      "username": "SlowNewsDayShow",
+      "tweetId": "2075806376321061350",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Decision",
+      "query": "why is choosing so hard lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "Why is multiracial and biracial not a word in y’all’s vocabulary?? Why does everybody gotta be black??",
+      "url": "https://x.com/Amorthebaby/status/2075838129987256493",
+      "createdAt": "Sat Jul 11 07:02:32 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 137,
+      "likeCount": 7282,
+      "repostCount": 988,
+      "quoteCount": 115,
+      "viewCount": 170132,
+      "username": "Amorthebaby",
+      "tweetId": "2075838129987256493",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Food",
+      "query": "only one can stay food lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "food_rank",
+      "text": "There are 2.4 million acres in central Idaho with no roads in or out. The Frank Church-River of No Return Wilderness is the largest contiguous wilderness in the Lower 48. It's bigger than Yellowstone and Grand Teton combined. The only way in is on foot, horseback, boat, or small plane. In the middle of it is the Salmon River, which carves a canyon deeper than the Grand Canyon. The name comes from early boatmen who could ride the current down, but couldn't fight it back upstream. The Middle Fo...",
+      "url": "https://x.com/NINP_org/status/2075713011042730237",
+      "createdAt": "Fri Jul 10 22:45:21 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 124,
+      "likeCount": 4340,
+      "repostCount": 476,
+      "quoteCount": 42,
+      "viewCount": 134134,
+      "username": "NINP_org",
+      "tweetId": "2075713011042730237",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Entertainment",
+      "query": "movie night recommendations lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "i need a good horror movie to watch!! what’s your recommendations??",
+      "url": "https://x.com/thespookygirll/status/2076003266542846081",
+      "createdAt": "Sat Jul 11 17:58:43 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 36,
+      "likeCount": 37,
+      "repostCount": 1,
+      "quoteCount": 0,
+      "viewCount": 4709,
+      "username": "thespookygirll",
+      "tweetId": "2076003266542846081",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": true,
+      "opportunityScore": 83
+    },
+    {
+      "category": "Entertainment",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Humans were never meant to eat three times a day, that’s just what the food establishment and global corporations sold you for profit.",
+      "url": "https://x.com/Mrbankstips/status/2076006524590215528",
+      "createdAt": "Sat Jul 11 18:11:40 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 648,
+      "likeCount": 8528,
+      "repostCount": 913,
+      "quoteCount": 172,
+      "viewCount": 434463,
+      "username": "Mrbankstips",
+      "tweetId": "2076006524590215528",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Lifestyle",
+      "query": "date night what should we do lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "activity_choice",
+      "text": "I accidentally just cheated on my bf what should I do 😭😭",
+      "url": "https://x.com/maebdoll/status/2075817855975600252",
+      "createdAt": "Sat Jul 11 05:41:58 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 204,
+      "likeCount": 1169,
+      "repostCount": 11,
+      "quoteCount": 14,
+      "viewCount": 232658,
+      "username": "maebdoll",
+      "tweetId": "2075817855975600252",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Entertainment",
+      "query": "only one can stay movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "How it feels to be the only one who perceives a malicious vibe from someone that everyone else likes https://t.co/Eu6OAdp5NS",
+      "url": "https://x.com/Whotfismick/status/2075823918804340830",
+      "createdAt": "Sat Jul 11 06:06:03 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 192,
+      "likeCount": 72744,
+      "repostCount": 6535,
+      "quoteCount": 300,
+      "viewCount": 1089869,
+      "username": "Whotfismick",
+      "tweetId": "2075823918804340830",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Entertainment",
+      "query": "best movie to watch tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Two weeks to film. $3mil budget. The greatest financial movie of all time. https://t.co/zK1u4B3jHq",
+      "url": "https://x.com/TylerDurden/status/2075928079852351754",
+      "createdAt": "Sat Jul 11 12:59:57 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 113,
+      "likeCount": 8364,
+      "repostCount": 417,
+      "quoteCount": 52,
+      "viewCount": 886295,
+      "username": "TylerDurden",
+      "tweetId": "2075928079852351754",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Entertainment",
+      "query": "movie night what should we watch lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "What movie can you watch over and over again without getting tired of it?",
+      "url": "https://x.com/blackebony28/status/2075699390350569788",
+      "createdAt": "Fri Jul 10 21:51:13 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 44,
+      "likeCount": 77,
+      "repostCount": 28,
+      "quoteCount": 3,
+      "viewCount": 4583,
+      "username": "blackebony28",
+      "tweetId": "2075699390350569788",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "Duncan Trussell tells Theo Von why the horrifying stuff the algorithm feeds you is not an accident, and explains what it does to your brain. It starts with the phone in your hand. TRUSSELL: \"All of us are staring into these hypno-rectangles. The algorithm, at least my algorithm, it's showing me horrible things, people in the midst of psychotic episodes, people in the forest drinking their period blood.\" VON: \"It's crazy dude. They're definitely scrambling our brains. Because you'll see like,...",
+      "url": "https://x.com/VigilantFox/status/2075977944657268865",
+      "createdAt": "Sat Jul 11 16:18:06 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 39,
+      "likeCount": 1290,
+      "repostCount": 225,
+      "quoteCount": 7,
+      "viewCount": 122759,
+      "username": "VigilantFox",
+      "tweetId": "2075977944657268865",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 82
+    },
+    {
+      "category": "Games",
+      "query": "pick your top two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "The Black Ops and Black Ops 2 ports are currently the top two games on PlayStation Store, ahead of Fortnite, EA Sports titles, and more. https://t.co/bE1RBQRpqd",
+      "url": "https://x.com/charlieINTEL/status/2075934362214818184",
+      "createdAt": "Sat Jul 11 13:24:55 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 126,
+      "likeCount": 5897,
+      "repostCount": 246,
+      "quoteCount": 37,
+      "viewCount": 302508,
+      "username": "charlieINTEL",
+      "tweetId": "2075934362214818184",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 81
+    },
+    {
+      "category": "Games",
+      "query": "what should I play tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "remove the penalty on leaving quick play i can't take this anymore https://t.co/03PrbtByEp",
+      "url": "https://x.com/florstie/status/2075795685266673918",
+      "createdAt": "Sat Jul 11 04:13:52 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 103,
+      "likeCount": 10242,
+      "repostCount": 485,
+      "quoteCount": 18,
+      "viewCount": 156173,
+      "username": "florstie",
+      "tweetId": "2075795685266673918",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 81
+    },
+    {
+      "category": "Decision",
+      "query": "which one would you choose lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "general_decision",
+      "text": "❤️ One question. One choice. No regrets. 🅰️ Be with the love of your life forever—even if you have very little money. 🅱️ Have all the money you could ever want—but never experience true love. Which would you choose? 👇 A or B? Tell us why. https://t.co/TyyghrUuYH",
+      "url": "https://x.com/Reeves566677/status/2076016743533969914",
+      "createdAt": "Sat Jul 11 18:52:16 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 69,
+      "likeCount": 37,
+      "repostCount": 8,
+      "quoteCount": 0,
+      "viewCount": 1070,
+      "username": "Reeves566677",
+      "tweetId": "2076016743533969914",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 81
+    },
+    {
+      "category": "Entertainment",
+      "query": "rank these shows lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_rank",
+      "text": "Rank these 4 stocks from best to worst: - $RDDT - $SNAP - $META - $GOOGL https://t.co/se2FsqH7NO",
+      "url": "https://x.com/FlippieFinance/status/2075898394867052846",
+      "createdAt": "Sat Jul 11 11:02:00 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 30,
+      "likeCount": 38,
+      "repostCount": 1,
+      "quoteCount": 0,
+      "viewCount": 3508,
+      "username": "FlippieFinance",
+      "tweetId": "2075898394867052846",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": true,
+      "hasCategorySignal": false,
+      "opportunityScore": 81
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "If you know what this is we can be friends https://t.co/bjjSVm82E4",
+      "url": "https://x.com/DschlopesIsBack/status/2075764200031338758",
+      "createdAt": "Sat Jul 11 02:08:45 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 1632,
+      "likeCount": 5553,
+      "repostCount": 266,
+      "quoteCount": 79,
+      "viewCount": 90057,
+      "username": "DschlopesIsBack",
+      "tweetId": "2075764200031338758",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 80
+    },
+    {
+      "category": "Entertainment",
+      "query": "comfort movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "what’s your comfort horror movie??",
+      "url": "https://x.com/thespookygirll/status/2075923504256491641",
+      "createdAt": "Sat Jul 11 12:41:46 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 72,
+      "likeCount": 92,
+      "repostCount": 6,
+      "quoteCount": 51,
+      "viewCount": 16998,
+      "username": "thespookygirll",
+      "tweetId": "2075923504256491641",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 80
+    },
+    {
+      "category": "Games",
+      "query": "only one can stay games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "First England game since returning home means only one thing… A pub with NO AIRCONDITIONING 😩 https://t.co/JE2BqaFN3D",
+      "url": "https://x.com/LUFC1992_v2/status/2076044803666505896",
+      "createdAt": "Sat Jul 11 20:43:46 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 95,
+      "likeCount": 1886,
+      "repostCount": 49,
+      "quoteCount": 4,
+      "viewCount": 21782,
+      "username": "LUFC1992_v2",
+      "tweetId": "2076044803666505896",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Games",
+      "query": "what are you playing right now lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "What's everyone playing right now? https://t.co/D6bpNaq0ov",
+      "url": "https://x.com/ThatGirlTammie/status/2075993930416664877",
+      "createdAt": "Sat Jul 11 17:21:37 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 85,
+      "likeCount": 984,
+      "repostCount": 27,
+      "quoteCount": 0,
+      "viewCount": 12327,
+      "username": "ThatGirlTammie",
+      "tweetId": "2075993930416664877",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Games",
+      "query": "pick your top two games lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_rank",
+      "text": "England 2-1, Argentina 3-1. What’s your predictions for today? Planning on watching both games here.",
+      "url": "https://x.com/ClayTravis/status/2076047457176236498",
+      "createdAt": "Sat Jul 11 20:54:19 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 78,
+      "likeCount": 253,
+      "repostCount": 13,
+      "quoteCount": 4,
+      "viewCount": 190420,
+      "username": "ClayTravis",
+      "tweetId": "2076047457176236498",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Food",
+      "query": "what is for dinner tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "opportunityType": "food_choice",
+      "text": "Happy Friday!! I've got some whole chickens on the smoker tonight. I'll use one for some homemade chicken basil pesto pizza with mushrooms, mozzarella, and green bell pepper. The other is for leftovers 💚 What are you having for dinner tonight? https://t.co/WeOLLJjKRf",
+      "url": "https://x.com/ElizaMonarch/status/2075725982447632585",
+      "createdAt": "Fri Jul 10 23:36:53 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 65,
+      "likeCount": 2344,
+      "repostCount": 61,
+      "quoteCount": 1,
+      "viewCount": 23778,
+      "username": "ElizaMonarch",
+      "tweetId": "2075725982447632585",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Games",
+      "query": "game night what should we play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "game_choice",
+      "text": "Whatever happens with the next Fallout game, can we all agree the karma system should return in some fashion? I miss that! 🙏 https://t.co/lKyQZrbLro",
+      "url": "https://x.com/FilmsFallout/status/2076036057850658931",
+      "createdAt": "Sat Jul 11 20:09:01 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 63,
+      "likeCount": 857,
+      "repostCount": 38,
+      "quoteCount": 7,
+      "viewCount": 15441,
+      "username": "FilmsFallout",
+      "tweetId": "2076036057850658931",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Games",
+      "query": "what game should I play lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Latest",
+      "opportunityType": "game_choice",
+      "text": "🚨 Granit Xhaka on why he’s afraid of facing Argentina in the World Cup “I know Argentina have Messi and they are incredible team that play well, but also the referee officiating the game should be just and do what is expected of them, when referee make wrong decisions like, giving out unnecessary penalties and foul, it will kill the vibe of the game” “Argentina had the most penalty in the last World Cup that they played in 2022, so I am afraid anything came come Up in the game and might chan...",
+      "url": "https://x.com/chideraonunkwo2/status/2076023797098881127",
+      "createdAt": "Sat Jul 11 19:20:18 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 53,
+      "likeCount": 151,
+      "repostCount": 127,
+      "quoteCount": 0,
+      "viewCount": 1737,
+      "username": "chideraonunkwo2",
+      "tweetId": "2076023797098881127",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 79
+    },
+    {
+      "category": "Entertainment",
+      "query": "what are you watching tonight lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "Did you guys hear what some towns are about to do? They are going to mount AI-driven cameras on garbage trucks and use them to look for code violations in people's yards. Companies are now springing up that will invade your privacy. You will receive a fine and a code violation based on camera snooping. Cape Coral Florida You will see many of these types of big brother approaches in the future. Laws need to be passed to prohibit these companies right now.",
+      "url": "https://x.com/__0HOUR1_/status/2075989680957383114",
+      "createdAt": "Sat Jul 11 17:04:44 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 203,
+      "likeCount": 3312,
+      "repostCount": 839,
+      "quoteCount": 35,
+      "viewCount": 46348,
+      "username": "__0HOUR1_",
+      "tweetId": "2075989680957383114",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "We now support docking media on 𝕏, so you can watch videos while continuing to browse. (Perfect for amazing SpaceX documentaries!) https://t.co/b1YyIv8POM",
+      "url": "https://x.com/benjitaylor/status/2075695173980578177",
+      "createdAt": "Fri Jul 10 21:34:28 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 178,
+      "likeCount": 1709,
+      "repostCount": 85,
+      "quoteCount": 24,
+      "viewCount": 65201,
+      "username": "benjitaylor",
+      "tweetId": "2075695173980578177",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should we watch show lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "tv_choice",
+      "text": "Every administration has addressed the crime of leaking national security information. To the extent that we have to investigate breaches of national security, that’s something that we will continue to do. To be clear, reporters are not the targets, those leaking classified information are. We value and appreciate the important role that the press plays in this country, but DOJ also plays an important role to make sure that the people entrusted with our nation’s secrets do what they’re suppos...",
+      "url": "https://x.com/DOJRR47/status/2075961339231506776",
+      "createdAt": "Sat Jul 11 15:12:07 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 160,
+      "likeCount": 2698,
+      "repostCount": 714,
+      "quoteCount": 28,
+      "viewCount": 337801,
+      "username": "DOJRR47",
+      "tweetId": "2075961339231506776",
+      "language": "en",
+      "riskFlags": [
+        "fashion_beauty"
+      ],
+      "isQuestion": true,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": false,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "rank these movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "If you watched any of these movies as a kid you’re probably the coolest person you know. https://t.co/tEn9RFLsse",
+      "url": "https://x.com/poe_collector/status/2076042426268238270",
+      "createdAt": "Sat Jul 11 20:34:20 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 113,
+      "likeCount": 379,
+      "repostCount": 3,
+      "quoteCount": 2,
+      "viewCount": 9545,
+      "username": "poe_collector",
+      "tweetId": "2076042426268238270",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "what should I watch movie lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_choice",
+      "text": "MY JAW ON THE FLOOR This is the greatest movie I have seen in my whole life https://t.co/SLOKxavxdK",
+      "url": "https://x.com/wstgoat7/status/2076007645534617831",
+      "createdAt": "Sat Jul 11 18:16:07 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 111,
+      "likeCount": 3415,
+      "repostCount": 160,
+      "quoteCount": 40,
+      "viewCount": 177033,
+      "username": "wstgoat7",
+      "tweetId": "2076007645534617831",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "pick your top two movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "To the Zoomer, the top two seem as quaint as \"werewolf\" and \"vampire\" seem to the millennial. Horror seems silly if you don't know the real fear it's representing. The problems Zoomers face are simulacrum and alienation.",
+      "url": "https://x.com/VT5210/status/2075993809935339984",
+      "createdAt": "Sat Jul 11 17:21:09 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 77,
+      "likeCount": 23756,
+      "repostCount": 1374,
+      "quoteCount": 25,
+      "viewCount": 461273,
+      "username": "VT5210",
+      "tweetId": "2075993809935339984",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 78
+    },
+    {
+      "category": "Entertainment",
+      "query": "rank these movies lang:en -crypto -bitcoin -solana -ethereum -airdrop -giveaway -retweet -repost -follow -grok -election -president -war -killed -shooting -dress -outfit -nails -wedding",
+      "queryType": "Top",
+      "opportunityType": "movie_rank",
+      "text": "the world went downhill when we stopped getting these kinds of movies that raised a generation of bad bitches and gays..",
+      "url": "https://x.com/THEHORRORGOTH/status/2075762186450858330",
+      "createdAt": "Sat Jul 11 02:00:45 +0000 2026",
+      "target_date": "2026-07-11",
+      "replyCount": 71,
+      "likeCount": 33829,
+      "repostCount": 6330,
+      "quoteCount": 68,
+      "viewCount": 443979,
+      "username": "THEHORRORGOTH",
+      "tweetId": "2075762186450858330",
+      "language": "en",
+      "riskFlags": [],
+      "isQuestion": false,
+      "hasDecisionSignal": false,
+      "hasCategorySignal": true,
+      "opportunityScore": 78
+    }
+  ],
+  "generatedFor": "SpinTheWheel.net X Reply Report",
+  "publicSafe": true,
+  "delivery": "github_public_repo_date_named_json",
+  "runId": "d463a256-9cc3-4366-aa9e-e00edc689c02",
+  "freshnessRule": "Use only if checkedAtTurkey is today after 07:00 Europe/Istanbul and target_date is previous calendar day."
+}
